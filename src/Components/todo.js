@@ -9,7 +9,6 @@ import {
   deleteTodo,
   setFilter,
 } from "../JS/Action/action";
-import "../style.css";
 
 const TaskCard = ({ todo, onToggle, onEdit, onDelete }) => {
   const [isEditing, setIsEditing] = useState(false);

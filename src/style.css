@@ -8,7 +8,7 @@ body {
 }
 
 .main {
-    max-width: 800px;
+    max-width: 400px;
     margin: 0 auto;
     padding: 20px;
     background: rgba(255, 255, 255, 0.95);
@@ -195,7 +195,7 @@ h2 {
 
 .task-text.completed {
     text-decoration: line-through;
-    color: #718096;
+    color: #03142d;
 }
 
 .task-edit-input {
