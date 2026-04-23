@@ -19,6 +19,7 @@ const TaskCard = ({ todo, onToggle, onEdit, onDelete }) => {
       onEdit(todo.id, editText.trim());
     }
     setIsEditing(!isEditing);
+    
   };
 
   const handleKeyPress = (e) => {
@@ -66,7 +67,7 @@ const TaskCard = ({ todo, onToggle, onEdit, onDelete }) => {
   );
 };
 
-export default function Todo() {
+export default function Todo() { 
   const [text, setText] = useState("");
   const [searchText, setSearchText] = useState("");
 

@@ -24,7 +24,7 @@ const TodoReducer = (state = initialState, action) => {
       return {
         ...state,
         todos: state.todos.map((todo) =>
-          todo.id === action.payload ? { ...todo, isDone: !todo.isDone } : todo,
+          todo.id === action.payload ? {...todo, isDone: !todo.isDone } : todo,
         ),
       };
     case EDIT_TODO:
